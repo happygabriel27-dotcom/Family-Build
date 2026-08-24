@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Logs & temp files
+*.log
+*.pid
+dev.pid
+_probe.cjs
+_startdev.cjs
+_startdev.js
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+
+# Compiled vite config artifacts
+vite.config.js
+vite.config.d.ts
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vercel
